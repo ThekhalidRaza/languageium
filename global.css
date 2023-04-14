@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --grey: #ebf4ff;
+  --orange: #ef4136;
+  --black: #212529;
+  --font16: 1rem;
+  --font32: 2rem;
+  --font48: 3rem;
+  --font70: 4rem;
+  --font600: 600;
+}
+
+.isbggrey {
+  background-color: var(--grey);
+}
+
+.isbgorange {
+  background-color: var(--orange);
+}
+
+.isclrblack {
+  color: var(--black);
+}
+
+.isfont16 {
+  font-size: var(--font16);
+}
+
+.isfont32 {
+  font-size: var(--font32);
+}
+
+.isfont48 {
+  font-size: var(--font48);
+}
+
+.isfont70 {
+  font-size: var(--font70);
+}
+
+.isfont600 {
+  font-weight: 600;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: var(--font70);
+  margin-bottom: 30px;
+  font-weight: var(--font600);
+}
+
+h2 {
+  font-size: var(--font32);
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+ul li,
+a {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+
+.x-padding {
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.y-padding {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.btn-normal {
+  background-color: var(--orange);
+  margin: 20px 0px;
+  font-weight: var(--font600);
+  font-size: 20px;
+  padding: 5px 25px;
+}
+.btn-normal:hover {
+  background-color: var(--orange);
+}
